@@ -6,3 +6,4 @@ streamlit
 scikit-learn
 pandas  
 pydantic
+uv && uv sync
