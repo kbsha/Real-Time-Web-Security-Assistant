@@ -8,7 +8,7 @@ text = st.text_input("Enter URL or message")
 if st.button("Analyze"):
 
     response = requests.post(
-        "http://127.0.0.1:8001/predict",
+        "https://ai-cyber-api.onrender.com/predict",
         json={"text": text}
     )
 
